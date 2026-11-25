@@ -66,7 +66,7 @@
 
 AdRamp is an AI‑powered performance marketing platform that connects to Google Ads, Meta, Shopify and Klaviyo data. Users can ask natural‑language questions, get instant insights, and execute changes directly in their ad accounts via a chat interface. The tool surfaces wasteful search terms, underperforming keywords and budget drains, allowing one‑click actions such as pausing ads, adding negative keywords, and reallocating budgets. Real‑time dashboards track spend, revenue, conversions, ROAS and CPA across campaigns. AdRamp operates as a read‑only, human‑in‑the‑loop system that respects user approvals and privacy. Early‑access is free with plans to be announced.
 
-**Areas:** AI · Marketing · Advertising · Analytics · Automation · SaaS
+**Areas:** Artificial Intelligence · Marketing · Advertising · Analytics · Automation · Software-as-a-Service
 
 ## AdRamp on APIs.io
 
@@ -80,30 +80,36 @@ Everything profiled for AdRamp is published on APIs.io rather than in this repos
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [adramp-ai-mcp.yml](https://apis.io/servers/adramp-ai/adramp-ai-mcp-yml/)
+
 #### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Adramp Ai Authentication](https://apis.io/security/adramp-ai/adramp-ai-authentication/)
-- [Adramp Ai Domain Security](https://apis.io/security/adramp-ai/adramp-ai-domain-security/)
+- [AdRamp Authentication](https://apis.io/security/adramp-ai/adramp-ai-authentication/)
+- [AdRamp Domain Security](https://apis.io/security/adramp-ai/adramp-ai-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Adramp Ai Scopes](https://apis.io/scopes/adramp-ai/adramp-ai-scopes/)
+- [AdRamp Scopes](https://apis.io/scopes/adramp-ai/adramp-ai-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Adramp Ai Plans Pricing](https://apis.io/plans/adramp-ai/adramp-ai-plans-pricing/)
+- [AdRamp Plans Pricing](https://apis.io/plans/adramp-ai/adramp-ai-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Adramp Ai Rate Limits](https://apis.io/rate-limits/adramp-ai/adramp-ai-rate-limits/)
+- [AdRamp Rate Limits](https://apis.io/rate-limits/adramp-ai/adramp-ai-rate-limits/)
 
 ## Where to find this API
 
@@ -118,7 +124,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 23.5** — emerging · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 22.6** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
@@ -127,9 +133,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Contract governance | 0.0 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 11.9 |
-| Access clarity | 63.7 |
+| Access clarity | 63.8 |
 
-**Agent readiness 27.2** — agent-aware
+**Agent readiness 24.2** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -144,7 +150,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
 | Agent Skills | — |
-| Well Known Catalog | yes |
+| Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -154,8 +160,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 21.8** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adramp-ai/](https://apis.io/providers/adramp-ai/).
 
